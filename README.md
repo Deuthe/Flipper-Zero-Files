@@ -12,7 +12,7 @@ Welcome to my personal collection of Flipper Zero files! This repository contain
 
 ## RedRabbit Script
 
-The RedRabbit script automates tasks on a connected PC via the Flipper Zero. This version includes several improvements over the original Discord-provided script:
+The RedRabbit script automates tasks on a connected PC via the Flipper Zero. This version includes improvements over the original Discord-provided script:
 - Runs as an admin by default.
 - Fixes an issue where random IDs were appended to the `.ps1` file (now parsed to a separate file).
 - Corrects the keylogger functionality—logs are now saved to the same folder in Flipper's mass storage created by the `.ps1` script.
