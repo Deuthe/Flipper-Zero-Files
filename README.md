@@ -21,7 +21,7 @@ The RedRabbit script automates tasks on a connected PC via the Flipper Zero. Thi
 
 ### Prerequisites
 - A Flipper Zero device with mass storage enabled.
-- The `RedRabbit.img` image file (created or provided).
+- The `RedRabbit.img` image file (created within the Flipper Zero).
 - The `redrabbit.ps1` PowerShell script (included in this repo).
 - The `RedRabbit.js` script (included in this repo).
 
@@ -29,8 +29,7 @@ The RedRabbit script automates tasks on a connected PC via the Flipper Zero. Thi
 
 ### Instructions
 1. **Prepare the Image**:
-   - Create or obtain the `RedRabbit.img` file.
-   - Place it in the Flipper Zero's mass storage with the exact name `RedRabbit.img`.
+   - Create the `RedRabbit.img` file in your Flipper in USB -> Mass Storage -> Create Disk -> Name it and save it.
 
 2. **Run the Image**:
    - On your Flipper Zero, navigate to the mass storage section and run `RedRabbit.img`.
@@ -46,7 +45,7 @@ The RedRabbit script automates tasks on a connected PC via the Flipper Zero. Thi
 
 6. **Run the Script on Flipper**:
    - On the Flipper Zero, go to the `scripts` directory.
-   - Locate and run the `RedRabbit.js` file.
+   - Locate and run the `RedRabbit.js` file. (From this repo) You can add it to the Scripts folder.
 
 7. **Reconnect to PC**:
    - Plug the Flipper Zero back into your PC to execute the script and start the keylogger.
@@ -72,12 +71,7 @@ The RedRabbit script automates tasks on a connected PC via the Flipper Zero. Thi
 
 ## Credits
 - Thanks to **@b0r0xz** for the `RedRabbit.js` file, which made it possible to run `.ps1` scripts on the Flipper Zero.
-- Original script created by **@securethelogs**.
-
----
-
-## Contributing
-Feel free to fork this repo, suggest improvements, or add your own Flipper Zero files! Pull requests are welcome.
+- Original powershell script created by **@securethelogs**.
 
 ---
 
